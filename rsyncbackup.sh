@@ -1,5 +1,7 @@
 #!/bin/bash
+#
 # @author Destin Moulton
+# @license MIT
 #
 # An rsync backup script. 
 # This script performs a backup of the /home/ directory.
