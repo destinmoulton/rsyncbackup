@@ -3,8 +3,12 @@
 rsync backup the mysql databases and /home/ directory to a remote rsync host.
 
 * rsyncbackup.sh
-    A backup tool that dumps all the databases and then rsyncs those and a set of /home/ dirs to an rsync host.
+  * Dumps mysql databases into a /home/ directory
+  * rsyncs those and a set of /home/ dirs to an rsync host
+  * Ignore mysql databases (ie metadata) and nonessential /home/ directories
     
 * runbackup.sh
-    A basic bash stub file that calls the rsyncbackup.sh script, stores the output to a log file, then emails the log file to the root user.
+  * Run the rsyncbackup.sh script
+  * Stores the output to a log file
+  * Email the log file to the root user
 
