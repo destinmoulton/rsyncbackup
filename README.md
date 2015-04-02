@@ -1,6 +1,6 @@
 ### rsyncbackup
 
-rsync backup the mysql databases and /home/ directory to a remote rsync host.
+Backup the mysql databases and rsync the /home/ directory to a remote rsync host.
 
 * rsyncbackup.sh
   * Dumps mysql databases into a /home/ directory
